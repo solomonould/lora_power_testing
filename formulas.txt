@@ -1,0 +1,42 @@
+datarate  (0 - 5)
+
+y = p1*x^4 + p2*x^3 +
+      p3*x^2 + p4*x +
+      p5 
+
+Coefficients:
+  p1 = 0.00061847
+  p2 = -0.0092522
+  p3 = 0.053733
+  p4 = -0.15423
+  p5 = 0.32323
+
+tx setting (2-12)
+
+y = p1*x + p2
+
+p1 = 0.0045733
+p2 = 0.1664
+
+message size (1 - 51 bytes)
+
+(1-18)
+
+y = p1*x + p2 
+
+Coefficients:
+  p1 = 0.0025994
+  p2 = 0.20252
+
+(19-51)
+
+y = p1*x + p2 
+
+Coefficients:
+  p1 = 0.0015828
+  p2 = 0.26733
+
+Norm of residuals = 
+     0.0070189
+
+
